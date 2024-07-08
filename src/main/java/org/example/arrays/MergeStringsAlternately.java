@@ -9,7 +9,7 @@ package org.example.arrays;
  * */
 public class MergeStringsAlternately {
 
-    public String mergeAlternately(String word1, String word2) {
+    public static String mergeAlternately(String word1, String word2) {
         StringBuilder stringBuilder = new StringBuilder();
         int i = 0;
         while (i < word1.length() || i < word2.length()){
